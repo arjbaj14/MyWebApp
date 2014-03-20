@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html>
+<head>
+<h1> <title> Home
+</title></h1>
+
+</head>
+
+<body>
+<b> My Short Bio </b>
+<hr> <!-- this is a horizontal line-->
+<p> <img src = "https://onedrive.live.com/?gologin=1&mkt=en-US#cid=4EDD08FE24E79FCB&id=4EDD08FE24E79FCB%21212&v=3"> Home </p>
+
+		 </a>	
+</body>
+
+</html>
