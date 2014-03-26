@@ -1,0 +1,10 @@
+body{
+background-color:blue;
+}
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
