@@ -1,4 +1,4 @@
-			/* This is for index.html*/
+			/*========================== This is for index.html=======================================*/
 			#bg
 			{
 				background-image:url("http://www.zeeboxmediagroup.com/flipport/taronica/background.jpg");
@@ -69,7 +69,7 @@
 				margin-bottom: 5px;
 			}
 }
-			/* This is for gallery.html*/
+			/* ========================This is for gallery.html=================================*/
 			
 			.gallery
 			{
@@ -122,5 +122,15 @@
 				a:link
 			{
 				text-decoration:#CCcc00;
+			}
+			/*====================================This portion is for education.html===================*/
+			.eduhead
+			{
+			text-decoration:none;
+			color:green;
+			font-family:Times New Roman
+			text-align:center;
+			float:auto;
+			clear:both;
 			}
 						
