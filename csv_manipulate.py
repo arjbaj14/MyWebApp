@@ -2,7 +2,7 @@ import csv
 import pip._vendor.colorama
 from pip._vendor.colorama import init
 init()
-f = open('/Users/abajracharya/gitrepo/arjun-test/engineering/python/sources/failingtest_15may.csv')
+f = open('/failingtest_15may.csv')
 #f = open('/Users/abajracharya/gitrepo/git_personal/Tutorials/list.csv')
 csv_f = csv.reader(f)
 header = next(csv_f)
@@ -14,7 +14,7 @@ if header != None:
         else:
             failingTest.append(column[3])
 #print (failingTest)
-f = open('/Users/abajracharya/gitrepo/arjun-test/engineering/python/sources/misconfiguredhosts_15May.csv')
+f = open('misconfiguredhosts_15May.csv')
 #f = open('/Users/abajracharya/gitrepo/git_personal/Tutorials/list2.csv')
 csv_f = csv.reader(f)
 header = next(csv_f)
@@ -35,14 +35,14 @@ print (Fore.BLUE + f'{"The number of misconfigured asset is:":15} {len(misconfig
 diff = (misconfiguredHost.difference(failingTest))
 merged = (misconfiguredHost.union(failingTest))
 inter = (misconfiguredHost.intersection(failingTest))
-with open ('/Users/abajracharya/gitrepo/arjun-test/engineering/python/sources/uniquelist.csv', 'w') as file:
+with open ('/Users/abajracharya/gitrepo/arjun-test//python/sources/uniquelist.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(sorted(diff))
 #print (diff)
-with open ('/Users/abajracharya/gitrepo/arjun-test/engineering/python/sources/combinedlist.csv', 'w') as file:
+with open ('/Users/abajracharya/gitrepo/arjun-test//python/sources/combinedlist.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(sorted(merged))
-with open ('/Users/abajracharya/gitrepo/arjun-test/engineering/python/sources/intersectedlist.csv', 'w') as file:
+with open ('/Users/abajracharya/gitrepo/arjun-test//python/sources/intersectedlist.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerow(sorted(inter))
 print (Fore.GREEN + f'{"the number of distinct or unique asset is:":10} {len(diff):15d}')
